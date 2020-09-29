@@ -1,1 +1,1 @@
-<header class="bottom-0 py-5 mt-16 font-mono text-5xl text-black bg-gray-200">PHP INN</header>
+<header class="bottom-0 py-5 mt-16 font-mono text-5xl text-black">PHP INN</header>

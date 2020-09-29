@@ -16,12 +16,12 @@ class savePosts
     );
   }
 
-  public function getPost(): array
+  public function getPost()
   {
     return $this->post;
   }
 
-  function storePost(): string
+  function storePost()
   {
     try {
       // Saving location entries
