@@ -1,1 +1,1 @@
-<header class="text-6xl">HEADER</header>
+<header class="text-4xl">Guest Book</header>

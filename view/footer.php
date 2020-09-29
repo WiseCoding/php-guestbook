@@ -1,1 +1,1 @@
-<footer>FOOTER</footer>
+<footer class="text-4xl">PHP Inn</footer>

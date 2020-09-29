@@ -12,13 +12,15 @@
   <link rel="stylesheet" type="text/css" href="./css/index.css" />
 </head>
 
-<body class="box-border bg-orange-200">
+<body class="box-border bg-orange-100">
 
   <div class="container mx-auto text-center">
     <!-- HEADER -->
     <?php include 'header.php' ?>
-    <!-- MAIN -->
-    <?php include 'main.php' ?>
+    <!-- FORM -->
+    <?php include 'form.php' ?>
+    <!-- MESSAGES -->
+    <?php include 'messages.php' ?>
     <!-- FOOTER -->
     <?php include 'footer.php' ?>
   </div>
