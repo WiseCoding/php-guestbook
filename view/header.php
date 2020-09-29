@@ -1,1 +1,1 @@
-<header class="text-4xl">Guest Book</header>
+<header class="py-5 font-mono text-5xl text-white bg-gray-800">Reviews</header>

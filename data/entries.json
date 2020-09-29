@@ -1,44 +1,14 @@
 [
-    {
-        "title": "qdqs",
-        "content": "qsdqsd",
-        "author": "sqdq",
-        "date": "29\/09\/2020"
-    },
-    {
-        "title": "This is a title",
-        "content": "Content",
-        "author": "Mattias",
-        "date": "29\/09\/2020"
-    },
-    {
-        "title": "mmqdklqmsd",
-        "content": "dmksqmdq",
-        "author": "smqlkdq",
-        "date": "29\/09\/2020"
-    },
-    {
-        "title": "mmqdklqmsd",
-        "content": "dmksqmdq",
-        "author": "smqlkdq",
-        "date": "29\/09\/2020"
-    },
-    {
-        "title": "mmqdklqmsd",
-        "content": "dmksqmdq",
-        "author": "smqlkdq",
-        "date": "29\/09\/2020"
-    },
-    {
-        "title": "mmqdklqmsd",
-        "content": "dmksqmdq",
-        "author": "smqlkdq",
-        "date": "29\/09\/2020"
-    },
-    {
-        "title": "mmqdklqmsd",
-        "content": "dmksqmdq",
-        "author": "smqlkdq",
-        "date": "29\/09\/2020"
-    }
+  {
+    "title": "This was a pleasant stay",
+    "content": "We enjoyed this very much! We enjoyed this very much! We enjoyed this very much! We enjoyed this very much! That's why I typed this four times.",
+    "author": "John",
+    "date": "20/05/2020"
+  },
+  {
+    "title": "I don't like this place at all",
+    "content": "A horrible experience for us. It was raining through the roof on 2 days and we only stayed for one day. Exactly, read that again!",
+    "author": "Ronny",
+    "date": "29/09/2020"
+  }
 ]
