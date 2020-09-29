@@ -4,7 +4,6 @@ declare(strict_types=1);
 session_start();
 
 // MODEL
-include "./model/script.php";
 include "./model/showPosts.php";
 include "./model/savePosts.php";
 
@@ -13,6 +12,3 @@ include "./controller/controller.php";
 
 // VIEW
 include "./view/view.php";
-
-// DEBUG
-// debug();
