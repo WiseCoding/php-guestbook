@@ -26,7 +26,7 @@
 
   <!-- BUTTON -->
   <div class="m-2">
-    <button type="submit" name="submit" value="submit" class="hover:bg-purple-400 focus:shadow-outline focus:outline-none px-4 py-2 my-4 font-bold text-white bg-purple-500 rounded shadow">Submit</button>
+    <button type="submit" name="submit" value="submit" class="hover:bg-purple-400 hover:border-black focus:shadow-outline focus:outline-none px-4 py-2 my-4 font-bold text-white bg-purple-500 border rounded shadow">Submit</button>
   </div>
 
 </form>

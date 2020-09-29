@@ -13,3 +13,10 @@ if (isset($_POST['submit']) && $_POST['submit'] === 'submit') {
 
 // GET & SHOW OLD POSTS
 $showPosts = new showPosts();
+
+// SHOW # AMOUNT OF POSTS
+if (isset($_POST['reviews'])) {
+  $seeAmount = (int)$_POST['reviews'];
+} else {
+  $seeAmount = 10;
+}
