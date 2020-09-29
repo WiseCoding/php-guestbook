@@ -38,16 +38,6 @@ class showPosts
       echo '</div>';
       echo '</div>';
     }
-    /* foreach ($this->posts as $post) {
-      echo '<div class="card">';
-      echo   '<p class="mb-2 font-mono text-lg font-bold">' . $post['title'] . '</p>';
-      echo   '<p class="text-justify text-gray-400">' . $post['content'] . '</p>';
-      echo   '<div class="flex justify-around mt-3">';
-      echo     '<p class="font-mono italic text-green-300">' . $post['author'] . '</p>';
-      echo     '<p class="font-mono italic text-blue-300">' . $post['date'] . '</p>';
-      echo   '</div>';
-      echo '</div>';
-    }*/
   }
 
   //TODO: Only 20 posts should show

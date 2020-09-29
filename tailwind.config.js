@@ -4,7 +4,7 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: {
-    enabled: false, //toggle
+    enabled: true, //toggle
     content: ['./*.php', './model/*.php', './view/*.php', './controller/*.php'],
   },
   theme: {

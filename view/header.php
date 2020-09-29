@@ -1,1 +1,1 @@
-<header class="py-5 font-mono text-5xl text-white bg-gray-800">Reviews</header>
+<header class="py-5 text-5xl font-black text-gray-800">PHP INN</header>
