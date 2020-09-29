@@ -1,3 +1,1 @@
-<?php
-
-declare(strict_types=1);
+<div><?= $showPosts->printPosts(20) ?></div>

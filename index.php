@@ -5,7 +5,8 @@ session_start();
 
 // MODEL
 include "./model/script.php";
-include "./model/entry.php";
+include "./model/showPosts.php";
+include "./model/savePosts.php";
 
 // CONTROLLER
 include "./controller/controller.php";
@@ -14,4 +15,4 @@ include "./controller/controller.php";
 include "./view/view.php";
 
 // DEBUG
-debug();
+// debug();
