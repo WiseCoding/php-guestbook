@@ -29,7 +29,12 @@ class showPosts
   {
     $posts = $this->posts;
     $high = count($posts);
-    $low = count($posts) - $amount;
+
+    if ((count($posts) - $amount) < 0) {
+      $low = 0;
+    } else {
+      $low = count($posts) - $amount;
+    }
 
     for ($i = $high - 1; $i >= $low; $i--) {
       echo '<div class="p-4 mx-8 my-4 text-white bg-gray-700 rounded-lg shadow-md">';
