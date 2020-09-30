@@ -8,6 +8,15 @@ class savePosts
 
   public function __construct()
   {
+    // convert smileys
+    $_POST['title'] = $this->addEmojis($_POST['title']);
+    $_POST['content'] = $this->addEmojis($_POST['content']);
+
+    // filter profanity
+    $_POST['title'] = $this->filterProfanity($_POST['title']);
+    $_POST['content'] = $this->filterProfanity($_POST['content']);
+
+    // compose entry message
     $this->post = array(
       'title' => htmlspecialchars($_POST['title']),
       'content' => htmlspecialchars($_POST['content']),
@@ -21,7 +30,7 @@ class savePosts
     return $this->post;
   }
 
-  function storePost()
+  public function storePost()
   {
     try {
       // Saving location entries
@@ -39,5 +48,29 @@ class savePosts
     } catch (\Throwable $th) {
       return 'Error: ' .  $th . "<br />";
     }
+  }
+
+  public function addEmojis($input): string
+  {
+    $smileys = [':-)', ':)', ';-)', ';)', ':-(', ':(', ':\'-(', ':\'(', ':-D', ':D', ':-p', ':p'];
+    $emojis = ['😀', '😀', '😉', '😉', '😟', '😟', '😭', '😭', '😂', '😂', '😜', '😜'];
+
+    for ($i = 0; $i < count($smileys); $i++) {
+      $input = str_replace($smileys[$i], $emojis[$i], $input);
+    }
+
+    return $input;
+  }
+
+  public function filterProfanity($input)
+  {
+    $words = ['fuck', 'shit', 'piss', 'turd', 'cunt', 'becode'];
+    $filter = '❤️';
+
+    for ($i = 0; $i < count($words); $i++) {
+      $input = str_replace($words[$i], $filter, $input);
+    }
+
+    return $input;
   }
 }

@@ -1,20 +1,32 @@
 [
   {
-    "title": "This was a pleasant stay",
-    "content": "We enjoyed this very much! We enjoyed this very much! We enjoyed this very much! We enjoyed this very much! That's why I typed this four times.",
-    "author": "John",
+    "title": "Placeholder Title!",
+    "content": "Placeholder content content content content content content content content content content",
+    "author": "Mr. Placeholder",
     "date": "20/05/2020"
   },
   {
-    "title": "I don't like this place at all",
-    "content": "A horrible experience for us. It was raining through the roof on 2 days and we only stayed for one day. Exactly, read that again!",
-    "author": "Ronny",
-    "date": "29/09/2020"
+    "title": "Smileys allowed \ud83d\ude00!",
+    "content": "These are all converted upon use -> :-), :), ;-), ;), :-(, :(, :'-(, :'(, :-D, :D, :-p, :p ",
+    "author": "Smiley Face",
+    "date": "21/05/2020"
   },
   {
-    "title": "Nice page",
-    "content": "Hey Mattias, are you coding ? I knew this ... chill a bit",
-    "author": "Global varibale",
-    "date": "29/09/2020"
+    "title": "No profanity please \u2764\ufe0f!",
+    "content": "There are a lot of banned words! It's important to keep it civilized. The use of the word 'becode' is also banned!",
+    "author": "Profanity Police",
+    "date": "22/05/2020"
+  },
+  {
+    "title": "Adjustable Posts.",
+    "content": "You can chose how much posts that you want to see by using the dropdown menu. ",
+    "author": "Frequent Poster",
+    "date": "23/09/2020"
+  },
+  {
+    "title": "WTF is this \u2764\ufe0f",
+    "content": "I hate this \u2764\ufe0f \u2764\ufe0f \u2764\ufe0f place.",
+    "author": "Ronny Douche",
+    "date": "24/09/2020"
   }
 ]
