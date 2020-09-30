@@ -2,8 +2,16 @@
 
 declare(strict_types=1);
 
+use Snipe\BanBuilder\CensorWords;
+
+require 'vendor/autoload.php';
+$censor = new CensorWords();
+
 // FORM SUBMIT NEW ENTRY
 if (isset($_POST['submit']) && $_POST['submit'] === 'submit') {
+
+  // FILTER PROFANITY
+  $_POST['content'] = $censor->censorString($_POST['content'])['clean'];
 
   // INSTANTIATE POST
   $post = new savePosts();

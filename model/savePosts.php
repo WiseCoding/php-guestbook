@@ -64,7 +64,7 @@ class savePosts
 
   public function filterProfanity($input)
   {
-    $words = ['fuck', 'shit', 'piss', 'turd', 'cunt', 'becode'];
+    $words = ['fuck', 'shit', 'piss', 'turd', 'ass', 'becode'];
     $filter = '❤️';
 
     for ($i = 0; $i < count($words); $i++) {
